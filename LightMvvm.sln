@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6182ABF0-667F-4ABF-AEEB-DB87B0F86618}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{17E18E22-48B2-4CF2-B9FC-5EBF92017D67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApp", "samples\DemoApp\DemoApp.csproj", "{933FF51A-4D5E-4A26-93E6-F1AB22F6D86C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightMvvm", "src\LightMvvm\LightMvvm.csproj", "{C5485FAF-01E7-45A9-9812-1D0FD8A28B36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{E152B5FD-5268-42D8-B2F7-0771110B2FF1}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightMvvm.CommunityToolkit", "src\LightMvvm.CommunityToolkit\LightMvvm.CommunityToolkit.csproj", "{E1ADB4B5-CAD6-4D1C-AC66-DF1B5B5F7B55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightMvvm.Avalonia", "src\LightMvvm.Avalonia\LightMvvm.Avalonia.csproj", "{47EF44B1-C2D9-4D64-9514-6252F9609F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApp.Model", "samples\DemoApp.Model\DemoApp.Model.csproj", "{0F708274-B286-446B-8CE4-CFD42FE4A0A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{933FF51A-4D5E-4A26-93E6-F1AB22F6D86C} = {17E18E22-48B2-4CF2-B9FC-5EBF92017D67}
+		{C5485FAF-01E7-45A9-9812-1D0FD8A28B36} = {6182ABF0-667F-4ABF-AEEB-DB87B0F86618}
+		{E1ADB4B5-CAD6-4D1C-AC66-DF1B5B5F7B55} = {6182ABF0-667F-4ABF-AEEB-DB87B0F86618}
+		{47EF44B1-C2D9-4D64-9514-6252F9609F69} = {6182ABF0-667F-4ABF-AEEB-DB87B0F86618}
+		{0F708274-B286-446B-8CE4-CFD42FE4A0A3} = {17E18E22-48B2-4CF2-B9FC-5EBF92017D67}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{933FF51A-4D5E-4A26-93E6-F1AB22F6D86C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933FF51A-4D5E-4A26-93E6-F1AB22F6D86C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933FF51A-4D5E-4A26-93E6-F1AB22F6D86C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933FF51A-4D5E-4A26-93E6-F1AB22F6D86C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5485FAF-01E7-45A9-9812-1D0FD8A28B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5485FAF-01E7-45A9-9812-1D0FD8A28B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5485FAF-01E7-45A9-9812-1D0FD8A28B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5485FAF-01E7-45A9-9812-1D0FD8A28B36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1ADB4B5-CAD6-4D1C-AC66-DF1B5B5F7B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1ADB4B5-CAD6-4D1C-AC66-DF1B5B5F7B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1ADB4B5-CAD6-4D1C-AC66-DF1B5B5F7B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1ADB4B5-CAD6-4D1C-AC66-DF1B5B5F7B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47EF44B1-C2D9-4D64-9514-6252F9609F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EF44B1-C2D9-4D64-9514-6252F9609F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47EF44B1-C2D9-4D64-9514-6252F9609F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47EF44B1-C2D9-4D64-9514-6252F9609F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F708274-B286-446B-8CE4-CFD42FE4A0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F708274-B286-446B-8CE4-CFD42FE4A0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F708274-B286-446B-8CE4-CFD42FE4A0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F708274-B286-446B-8CE4-CFD42FE4A0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

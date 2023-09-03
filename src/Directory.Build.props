@@ -1,0 +1,13 @@
+<Project>
+    <Import Project="$(MSBuildThisFileDirectory)/../Directory.Build.props"/>
+    
+    <PropertyGroup>
+        <TargetFrameworks>net6.0;netstandard2.0</TargetFrameworks>
+        <OurPublicKey>00240000048000009400000006020000002400005253413100040000010001001581de456fecb4d94ff42150dd000c729f8fb3aeb8bf80381931db3140c910b2ba49e82369d7ea285842b77cdb114710e9e7b6a7f9291be3ed04e394644e00e4041b0524344c18ebda06468c49010488b2f81707cf1fb4a39790cfded8c59a90a6264ef404d908f68a1c2a680e5efb47f4a1085a9975b5329b45f649bb2d0dbd</OurPublicKey>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <InternalsVisibleTo Include="LightMvvm.CommunityToolkit, PublicKey=$(OurPublicKey)" />
+        <InternalsVisibleTo Include="LightMvvm.Avalonia, PublicKey=$(OurPublicKey)" />
+    </ItemGroup>
+</Project>

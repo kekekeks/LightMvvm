@@ -1,0 +1,11 @@
+<Project>
+    <Import Project="$(MSBuildThisFileDirectory)/Directory.Packages.props" />
+    <PropertyGroup>
+        <LangVersion>11</LangVersion>
+        <AssemblyOriginatorKeyFile>$(MSBuildThisFileDirectory)/build/key.snk</AssemblyOriginatorKeyFile>
+        <SignAssembly>true</SignAssembly>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AvaloniaVersion>11.0.0-rc1.1</AvaloniaVersion>
+    </PropertyGroup>
+</Project>
